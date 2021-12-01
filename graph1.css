@@ -1,0 +1,56 @@
+.title{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+.chart{
+    width: 340px;
+    height: 340px;
+    background: conic-gradient(#8b22ff 0% 64%, #ffc33b 25% 56%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+head{
+    align-items: center
+}
+button{
+    color: white;
+    background-color: #379C84;
+    padding: 1%;
+    border-radius: 2%;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: grey;
+    text-align: left;
+}
+.color{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px
+}
+#maleColor{
+    background-color: #8b22ff
+}
+#femaleColor{
+    background-color: #ffc33b
+}
+.male{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.female{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
