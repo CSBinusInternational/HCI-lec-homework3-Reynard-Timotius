@@ -1,0 +1,60 @@
+.title{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+.chart{
+    width: 340px;
+    height: 340px;
+    background: conic-gradient(#ff22bd 0% 8%, #cbff3b 8% 19%, #379C84 19% 65%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+head{
+    align-items: center
+}
+button{
+    position: absolute;
+    color: white;
+    background-color: #379C84;
+    padding: 1%;
+    border-radius: 2%;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: grey;
+    text-align: left;
+}
+.color{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px
+}
+#CColor{
+    background-color: #cbff3b
+}
+#QColor{
+    background-color: #ff22bd
+}
+#SColor{
+    background-color: #379C84
+}
+.male{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.female{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
